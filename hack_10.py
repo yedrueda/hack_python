@@ -21,4 +21,4 @@ def fn_hack_10():
 
   return result
 
-print(fn_hack_10())
+

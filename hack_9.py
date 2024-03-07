@@ -8,10 +8,8 @@ def fn_hack_9():
 
   i = 0
   while i < len(result):
-    result.insert(i + 1, "@")  # Insert "@" after the current element
-    i += 2  # Increment by 2 to skip the newly inserted "@"
+
+    result.insert(i + 1, "@")  
+    i += 2  
 
   return result
-
-result = fn_hack_9()
-print(result) 
