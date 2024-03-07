@@ -13,12 +13,12 @@ def fn_hack_10():
     elif char == "a":
       result.append("@")
     elif char == "o":
-      result.append("0")  
+      result.append("0")
+    elif char == "i":
+      result.append("1")    
     else:
       result.append(char.upper())
 
   return result
 
-
-result = fn_hack_10()
-print(result)  
+print(fn_hack_10())
